@@ -1,0 +1,137 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(156, 236, 236);
+}
+
+/* Header Section */
+header {
+    background-color:rgb(156, 236, 236);
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* About Section */
+#about {
+    background-color:rgb(156, 236, 236);
+    text-align: center;
+    padding: 40px 0;
+}
+
+#about img {
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color:rgb(156, 236, 236);
+    padding: 40px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+}
+
+.project {
+    background-color:rgb(156, 236, 236);;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Resume Section */
+#resume {
+    background-color: rgb(156, 236, 236);
+    text-align: center;
+    padding: 40px 0;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: rgb(156, 236, 236);
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color:rgb(156, 236, 236);
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer links */
+footer a {
+    color: #1a1a18;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Footer links on hover */
+footer a:hover {
+    text-decoration: underline;
+}
